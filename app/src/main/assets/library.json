@@ -1,0 +1,203 @@
+{
+ "parts": [
+  {
+   "id": "RES",
+   "name": "Resistor",
+   "category": "passive",
+   "pins": 2
+  },
+  {
+   "id": "CAP",
+   "name": "Capacitor",
+   "category": "passive",
+   "pins": 2
+  },
+  {
+   "id": "CAP-ELEC",
+   "name": "Electrolytic capacitor",
+   "category": "passive",
+   "pins": 2
+  },
+  {
+   "id": "IND",
+   "name": "Inductor",
+   "category": "passive",
+   "pins": 2
+  },
+  {
+   "id": "POT",
+   "name": "Potentiometer",
+   "category": "passive",
+   "pins": 3
+  },
+  {
+   "id": "1N4148",
+   "name": "1N4148",
+   "category": "semiconductor",
+   "manufacturer": "generic",
+   "pins": 2
+  },
+  {
+   "id": "1N4733A",
+   "name": "1N4733A (5.1 V zener)",
+   "category": "semiconductor",
+   "pins": 2
+  },
+  {
+   "id": "LED-RED",
+   "name": "LED (red)",
+   "category": "indicator",
+   "pins": 2
+  },
+  {
+   "id": "LED-GREEN",
+   "name": "LED (green)",
+   "category": "indicator",
+   "pins": 2
+  },
+  {
+   "id": "LED-YELLOW",
+   "name": "LED (yellow)",
+   "category": "indicator",
+   "pins": 2
+  },
+  {
+   "id": "LED-BLUE",
+   "name": "LED (blue)",
+   "category": "indicator",
+   "pins": 2
+  },
+  {
+   "id": "2N2222",
+   "name": "2N2222 (NPN)",
+   "category": "semiconductor",
+   "pins": 3
+  },
+  {
+   "id": "2N3906",
+   "name": "2N3906 (PNP)",
+   "category": "semiconductor",
+   "pins": 3
+  },
+  {
+   "id": "2N7000",
+   "name": "2N7000 (N-MOSFET)",
+   "category": "semiconductor",
+   "pins": 3
+  },
+  {
+   "id": "OPAMP",
+   "name": "Op-amp (ideal)",
+   "category": "analog-ic",
+   "pins": 5
+  },
+  {
+   "id": "LM358",
+   "name": "LM358 dual op-amp",
+   "category": "analog-ic",
+   "manufacturer": "Texas Instruments",
+   "pins": 8
+  },
+  {
+   "id": "NE555",
+   "name": "NE555 timer",
+   "category": "analog-ic",
+   "manufacturer": "Texas Instruments",
+   "pins": 8
+  },
+  {
+   "id": "74HC00",
+   "name": "74HC00 quad 2-input NAND",
+   "category": "logic",
+   "manufacturer": "Nexperia",
+   "pins": 14
+  },
+  {
+   "id": "74HC08",
+   "name": "74HC08 quad 2-input AND",
+   "category": "logic",
+   "manufacturer": "Nexperia",
+   "pins": 14
+  },
+  {
+   "id": "74HC32",
+   "name": "74HC32 quad 2-input OR",
+   "category": "logic",
+   "manufacturer": "Nexperia",
+   "pins": 14
+  },
+  {
+   "id": "74HC86",
+   "name": "74HC86 quad 2-input XOR",
+   "category": "logic",
+   "manufacturer": "Nexperia",
+   "pins": 14
+  },
+  {
+   "id": "74HC04",
+   "name": "74HC04 hex inverter",
+   "category": "logic",
+   "manufacturer": "Nexperia",
+   "pins": 14
+  },
+  {
+   "id": "74HC74",
+   "name": "74HC74 dual D flip-flop",
+   "category": "logic",
+   "manufacturer": "Nexperia",
+   "pins": 14
+  },
+  {
+   "id": "74HC595",
+   "name": "74HC595 shift register",
+   "category": "logic",
+   "manufacturer": "Nexperia",
+   "pins": 16
+  },
+  {
+   "id": "CD4017",
+   "name": "CD4017 decade counter",
+   "category": "logic",
+   "manufacturer": "Texas Instruments",
+   "pins": 16
+  },
+  {
+   "id": "ATMEGA328P",
+   "name": "ATmega328P",
+   "category": "mcu",
+   "manufacturer": "Microchip",
+   "pins": 28
+  },
+  {
+   "id": "BUTTON",
+   "name": "Push button",
+   "category": "peripheral",
+   "pins": 2
+  },
+  {
+   "id": "SWITCH",
+   "name": "Toggle switch (SPST)",
+   "category": "peripheral",
+   "pins": 2
+  },
+  {
+   "id": "LCD1602",
+   "name": "LCD 16x2 (HD44780)",
+   "category": "peripheral",
+   "manufacturer": "Hitachi HD44780 compatible",
+   "pins": 14
+  },
+  {
+   "id": "7SEG-CC",
+   "name": "7-segment (common cathode)",
+   "category": "indicator",
+   "pins": 9
+  },
+  {
+   "id": "7SEG-CA",
+   "name": "7-segment (common anode)",
+   "category": "indicator",
+   "pins": 9
+  }
+ ]
+}

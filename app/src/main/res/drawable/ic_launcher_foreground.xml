@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A DIP chip inside scanner corners. 108dp canvas, art kept in the 72dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- scanner corners -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF4FC3F7"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M30,40 V30 H40 M68,30 H78 V40 M78,68 V78 H68 M40,78 H30 V68" />
+    <!-- chip body -->
+    <path
+        android:fillColor="#FFE0E0E0"
+        android:pathData="M42,38 H66 A2,2 0 0 1 68,40 V68 A2,2 0 0 1 66,70 H42 A2,2 0 0 1 40,68 V40 A2,2 0 0 1 42,38 Z" />
+    <!-- pin-1 notch -->
+    <path
+        android:fillColor="#FF2D2D30"
+        android:pathData="M50,38 A4,4 0 0 0 58,38 Z" />
+    <!-- legs -->
+    <path
+        android:fillColor="#FFE0E0E0"
+        android:pathData="M35,43 h5 v3 h-5z M35,51 h5 v3 h-5z M35,59 h5 v3 h-5z M68,43 h5 v3 h-5z M68,51 h5 v3 h-5z M68,59 h5 v3 h-5z" />
+</vector>
